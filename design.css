@@ -1,0 +1,140 @@
+.containerMain {
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 1000px;
+}
+
+.navbar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.navbar-brand {
+    background-color: #007bff;
+    color: #2b2828;
+}
+
+.rowContainer {
+    padding-top: 300px;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.welcome-section {
+    background-size: cover;
+    padding: 50px;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.welcome-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2b2828;
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    font-size: 18px;
+    color: #2b2828;
+    margin-bottom: 30px;
+}
+
+.welcome-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.welcome-button:hover {
+    background-color: #0056b3;
+}
+
+.scaled-carousel {
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scaled-carousel .carousel-inner > .item > img {
+    width: calc(100% - 40px);
+    height: calc(100vh - 40px);
+    object-fit: cover;
+}
+
+.scaled-carousel {
+    padding: 20px; /* Add padding around the carousel */
+    background-color: #f8f9fa; /* Optional: Add background color to see the padding effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better appearance */
+}
+.scaled-carousel .carousel-inner > .item > img {
+    height: auto;
+    width: 100%;
+    max-height: 33vh; /* One third of the viewport height */
+    object-fit: cover; /* Ensures images cover the area */
+}
+
+/* Style for the video section */
+.video-section {
+    text-align: center; /* Center align the text in the section */
+    padding: 20px; /* Add padding to the section */
+    background-color: #f8f9fa; /* Optional: Add background color */
+
+}
+.video-section {
+    display: inline-block; /* Center the video */
+    max-width: 200px; /* Make the video responsive */
+    height: 200px; /* Maintain the aspect ratio */
+}
+/* Style for the About Us section */
+.about-us-section {
+    padding: 40px 20px;
+    background-color: #ffffff; /* Optional: Add background color */
+    border-top: 1px solid #ddd; /* Optional: Add border for separation */
+}
+
+/* Style for the Research and Development subsection */
+.research-development {
+    padding: 20px;
+    background-color: #f8f9fa; /* Different background color */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Add margin to separate from other subsections */
+}
+
+/* Style for the Marketing Strategy subsection */
+.marketing-strategy {
+    padding: 20px;
+    background-color: #f2f9ff; /* Different background color */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Add margin to separate from other subsections */
+}
+
+/* Style for the Lab Management subsection */
+.lab-management {
+    padding: 20px;
+    background-color: #f5faff; /* Different background color */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Add margin to separate from other subsections */
+}
+
+/* Style for the Business Management subsection */
+.business-management {
+    padding: 20px;
+    background-color: #f9f6ff; /* Different background color */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Add margin to separate from other subsections */
+}
+
+.research-development-section{
+    padding: 40 px;
+    padding-top: 40px;
+}
